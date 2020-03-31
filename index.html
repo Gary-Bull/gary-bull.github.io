@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
     
     <title>Gary Bull - Portfolio</title>
 </head>
@@ -14,27 +15,31 @@
     <div class="container-fluid">
         
         <div class="container heading">
-            <h1>Coming Soon!!</h1>
+            <h1 class="text-uppercase" data-animation="bounceInUp">Coming Soon!!</h1>
             <h3>Gary Bull's Portfolio Website</h3>
         </div>
         <div class="container button">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn1" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary btn-lg text-uppercase btn1" data-toggle="modal" data-target="#exampleModal">
                 Find out More
             </button>
             
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
+                <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">My name is Gary Bull</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Hi, I'm Gary Bull</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     </div>
-                    <div class="modal-body">
-                        I don't have any education in computer science or any of kind degree. <br><br> I am learning everything myself which may say a lot about me as a person.<br><br> I'm currently learning Web Development, with a plan on securing a position at a company that will allow me express my passion in developing websites.
+                    
+                    <div class="modal-body d-flex">
+                        <div class="container-fluid">
+                            <img src="img/headshot.jpg" alt="" class="headshot mx-auto d-block rounded-circle">
+                            <p>I don't have any education in computer science or any of kind degree. <br><br> I am learning everything myself which may say a lot about me as a person.<br><br> I'm currently learning Front End Web Development, with a plan on securing a position at a company that will allow me express my passion in developing websites and progress into becoming a Full Stack Web Developer.</p>
+                        </div>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
