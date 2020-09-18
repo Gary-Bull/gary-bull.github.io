@@ -142,7 +142,7 @@ header.sticky ul li a:hover{
     min-width: 50%;
 }
 .w50 img {
-    width: 35%;
+    width: 45%;
     margin-left: 350px;
 }
 img {
@@ -406,5 +406,38 @@ img {
     .banner h2 {
         font-size: 1em;
         transition: 0.4s ease;
+    }
+    .btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .heading h2 {
+        font-size: 24px;
+    }
+    .contentBx h3 {
+        font-size: 20px;
+    }
+    .content {
+        flex-direction: column;
+        
+    }
+    .w50 img {
+        padding-top: 30px;
+        margin-left: 220px;
+    }
+    .skills .content .skillsBx {
+        margin: 10px;
+    }
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
+    }
+    .examples .content .examplesBx {
+        width: 100%;
+        padding: 10px;
+    }
+    .examplesBx p {
+        margin-top: 10px;
     }
 }
