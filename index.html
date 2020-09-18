@@ -10,24 +10,24 @@
 <body>
     <header>
         <a href="#" class="logo">My Portfolio</a>
-        <div class="toggle"></div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Examples</a></li>
-            <li><a href="">Contact</a></li>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#examples">Examples</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="textBx">
             <h1>Hello, I'm <br><span>Gary Bull.</span></h1>
             <h2>I'm a Front End Web Developer | Designer</h2>
-            <a href="#" class="btn">About Me</a>
+            <a href="#about" class="btn">About Me</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="heading">
             <h2>About Me</h2>
         </div>
@@ -41,7 +41,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="heading white">
             <h2>My Skills</h2>
             <p>Below are a few of the skills i've learnt so far.</p>
@@ -108,62 +108,127 @@
             </div>
         </div>
     </section>
-    <section class="work">
+    <section class="work" id="work">
         <div class="heading">
             <h2>My Work</h2>
-            <p>Some of my work that I've created, developed so far.</p>
+            <p>Some of my work that I've created, developed so far. <br>Click on the <span class="blue">image</span> to visit the site</p>
         </div>
         <div class="content">
             <div class="workBx">
-                <img src="./img/Redknights.png" alt="">
+                <a href="http://redknightskickboxing.com/index.html" target="_blank"><img src="./img/Redknights.png" alt=""></a>
             </div>
             <div class="workBx">
-                <img src="./img/ppuk.png" alt="">
+                <a href="https://paranormalpursuituk.com/" target="_blank"><img src="./img/ppuk.png" alt=""></a>
             </div>
             <div class="workBx">
-                <img src="./img/outlaw.png" alt="">
+                <a href="http://www.outlawtheatrecompany.co.uk/" target="_blank"><img src="./img/outlaw.png" alt=""></a>
             </div>
             <div class="workBx">
-                <img src="./img/sextant.png" alt="">
+                <a href="https://www.sextantgroupuk.com/" target="_blank"><img src="./img/sextant.png" alt=""></a>
             </div>
         </div>
         <div class="heading">
             <p>Want to work with me??</p>
-            <a href="#" class="btn">Contact Me</a>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
     </section>
-    <section class="examples">
+    <section class="examples" id="examples">
         <div class="heading">
             <h2>Examples</h2>
-            <p>Some examples of what i've been learning</p>
+            <p>Some examples of what i've been learning <br> Clicking on the image will take you to the github repository</p>
         </div>
         <div class="content">
             <div class="examplesBx">
-                <img src="./img/amazon_clone.png" alt="">
+                <a href="https://github.com/Gary-Bull/amazon_clone"><img src="./img/amazon_clone.png" alt=""></a>
+                <p><span class="blue">Amazon Clone</span><br>Developed using ReactJS</p>
+            </div> 
+            <div class="examplesBx">
+                <a href="https://github.com/Gary-Bull/Profile_website"><img src="./img/js_website.png" alt=""></a>
+                <p><span class="blue">Profile Website</span><br>Developed using HTML, CSS, and Javascript</p>
             </div>
             <div class="examplesBx">
-                <img src="./img/js_website.png" alt="">
+                <a href="https://github.com/Gary-Bull/Parallax_Scrolling_Effect"><img src="./img/parrallax_js.png" alt=""></a>
+                <p><span class="blue">Parallax Scrolling Effect</span><br>Developed using HTML, CSS, and Javascript</p>
             </div>
             <div class="examplesBx">
-                <img src="./img/parrallax_js.png" alt="">
-            </div>
-            <div class="examplesBx">
-                <img src="./img/tilt_effect_js.png" alt="">
+                <a href="https://github.com/Gary-Bull/Parallax_Tilt_Effect"><img src="./img/tilt_effect_js.png" alt=""></a>
+                <p><span class="blue">Tilt Effect Cards</span><br>Developed using HTML, CSS, and Javascript</p>
             </div>
             <div class="examplesBx">
                 <img src="./img/neon_glow_card.png" alt="">
+                <p><span class="blue">Neon Glow Responsive Cards</span><br>Developed using HTML, CSS, and Javascript</p>
             </div>
             <div class="examplesBx">
-                <img src="./img/landing_page_js.png" alt="">
+                <a href="https://github.com/Gary-Bull/Responsive_Landing_Page"><img src="./img/landing_page_js.png" alt=""></a>
+                <p><span class="blue">Responsive Landing Page</span><br>Developed using HTML, CSS, and Javascript</p>
             </div>
         </div>
     </section>
-    
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work with me please contact me via the e-mail address provided below</p>
+            <p><span class="blue">** The form does not currently work **</span></p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contant Information</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Arnold,<br>Nottingham,<br>Nottinghamshire</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>07730452339</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>webdev.gary@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright &copy; 2020 | Gary Bull</p>
+    </div>
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
             var header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 0);
         });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
     </script>
 </body>
 </html>
