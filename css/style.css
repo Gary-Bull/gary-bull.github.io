@@ -441,3 +441,20 @@ img {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 600px) {
+    header,
+    header.sticky {
+        padding: 20px 20px;
+    }
+    .banner {
+        padding: 150px 20px 100px;
+    }
+    section {
+        padding: 100px 20px;
+    }
+    .w50 img {
+        padding-top: 40px;
+        margin-left: 120px;
+    }
+}
