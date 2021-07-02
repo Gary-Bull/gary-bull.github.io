@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gary Bull | Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/webdevgary.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intoduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Gary Bull</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/profile1.jpg" class="intro__img" alt="a picture of Gary smiling">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design</h3>
+                <p>I will help you with designing your website. Using design tools like Figma. Looking at current and future trends to make your website POP! out from the rest. <br>
+                If you already have a website, that you'd like to update the design, I am more than happy to help you with that too.</p>
+            </div>
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>Using the design, I will develop the front end of your website using HTML, CSS, JavaScript and / or a JavaScript framework such as ReactJS.</p>
+            </div>
+            <div class="service">
+                <h3>Wordpress</h3>
+                <p>If you have, or would prefer to have a Wordpress website. I can develop your site too. There are thousands of Wordpress templates that we can modify to make your website. Or if you'd prefer, we could start a fresh design and develop that too.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Front-End Developer & Designer based out of Nottingham UK</p>
+
+        <div class="about-me__body">
+            <p>I'm currently working as a Business Support Solutions Analyst, however I have a new passion for designing and developing websites.</p>
+            <p>I'm primarily concentrating on learning JavaScript and ReactJS at the moment, working through courses that I have found available to me to hone my skills in my spare time.</p>
+            <p>I really enjoy martial arts and attend my local kickboxing school, where I'm currently a Purple belt, which means, only one more belt to go before I can grade for my Black Belt.</p>
+        </div>
+
+        <img src="img/IMG_0827-2.jpg" class="about-me__img" alt="Gary smiling at the camera with hands crossed in front of him">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Some of my work that I've really enjoyed designing, developing, and currently working on so far. <br> Click on the <span class="section__accent">image</span> to visit the site</p>
+        <div class="portfolio">
+            <a href="http://redknightskickboxing.com/index.html" target="_blank" class="portfolio__item">
+                <img src="img/Redknights.png" class="portfolio__img" alt="Red knights Kickboxing">
+            </a>
+            <a href="https://readysteadysnaps.000webhostapp.com/" target="_blank" class="portfolio__item">
+                <img src="img/readysteadysnaps2.png" class="portfolio__img" alt="Ready Steady Snaps">
+            </a>
+            <a href="http://www.outlawtheatrecompany.co.uk/" target="_blank" class="portfolio__item">
+                <img src="img/outlaw.png" class="portfolio__img" alt="Outlaw Theatre">
+            </a>
+            <a href="https://paranormalpursuituk.com/" target="_blank" class="portfolio__item">
+                <img src="img/ppuk.png" class="portfolio__img" alt="Paranormal Pursuit UK">
+            </a>
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote">
+        <div class="quote__section">
+            <p class="quote__quote"><q>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program</q></p>
+            <p><em>Linus Torvalds</em> <br> (creator of the Linux Kernel and Git)</p>
+            <p></p>
+        </div>
+    </section>
+
+    <!-- My examples -->
+    <section class="my-work" id="projects">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">Some of my Projects that I've created while learning Front-End Development so far. <br> Click on the <span class="section__accent">image</span> to visit the site or Github Page</p>
+        <div class="container container--light">
+            <p class="section__subtitle section__subtitle--example">Next JS</p>
+            <div class="portfolio">
+                <a href="https://hulu-clone-ruddy.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/hulu_clone.png" class="portfolio__img" alt="Red knights Kickboxing">
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="container react">
+            <p class="section__subtitle section__subtitle--work">React JS</p>
+            <div class="portfolio">
+                <a href="https://netflix-clone-b3bd1.web.app/" target="_blank" class="portfolio__item">
+                    <img src="img/netflix_clone.png" class="portfolio__img" alt="Red knights Kickboxing">
+                </a>
+                <a href="https://clone-4e398.web.app/" target="_blank" class="portfolio__item">
+                    <img src="img/amazon_clone.png" class="portfolio__img" alt="Ready Steady Snaps">
+                </a>
+                <a href="https://linkedin-clone-938d4.web.app/" target="_blank" class="portfolio__item">
+                    <img src="img/linkedin_clone2.png" class="portfolio__img" alt="Outlaw Theatre">
+                </a>
+                <a href="https://facebook-clone-7ab6c.web.app/" target="_blank" class="portfolio__item">
+                    <img src="img/facebook_clone.png" class="portfolio__img" alt="Paranormal Pursuit UK">
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="container container--light">
+            <p class="section__subtitle section__subtitle--example">Flutter & Dart</p>
+            <div class="portfolio">
+                <a href="https://netflix-flutter-abe39.web.app/#/" target="_blank" class="portfolio__item">
+                    <img src="img/netflix_flutter.png" class="portfolio__img" alt="Red knights Kickboxing">
+                </a>
+                <a href="https://facebook-flutter-d55dd.web.app/#/" target="_blank" class="portfolio__item">
+                    <img src="img/facebook_flutter.png" class="portfolio__img" alt="Ready Steady Snaps">
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="container react">
+            <p class="section__subtitle section__subtitle--work">HTML, CSS, JavaScript</p>
+            <div class="portfolio">
+                <a href="https://html-css-js-portfolio-site.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/responsive_profile.png" class="portfolio__img" alt="Outlaw Theatre">
+                </a>
+                <a href="https://complete-responsive-site.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/completesite.png" class="portfolio__img" alt="Paranormal Pursuit UK">
+                </a>
+                <a href="https://responsive-landing-page-gamma.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/landing_page_js.png" class="portfolio__img" alt="Outlaw Theatre">
+                </a>
+                <a href="https://good-foods-landing-page.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/goodfoods.png" class="portfolio__img" alt="Paranormal Pursuit UK">
+                </a>
+                <a href="https://todo-list-five-self.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/todolist.png" class="portfolio__img" alt="Red knights Kickboxing">
+                </a>
+                <a href="https://tictactoe-beige.vercel.app/" target="_blank" class="portfolio__item">
+                    <img src="img/tictactoe.png" class="portfolio__img" alt="Ready Steady Snaps">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:webdev.gary@gmail.com" class="footer__link">webdev.gary@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/Gary-Bull" target="_blank" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/gary-bull-5a7471186/" target="_blank" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
